@@ -366,10 +366,11 @@ text-transform: uppercase;
     }
     .content2{
         height: 500px;
-        display: block;
+        /* display: block; */
         /* background-color: blue; */
         /* align-items: center;
         justify-content: center; */
+        display: inline-block;
     }
     .content2 img{
         /* background-image: url(/assets/img/line1.jpg); */
@@ -384,10 +385,10 @@ text-transform: uppercase;
     }
 
     .content2-a{
-        position: relative;
+        /* position: relative;
         right: 25%;
         left: 25%;
-        text-align: left;
+        text-align: left; */
     }
     .content2-a button{
         position: relative;
