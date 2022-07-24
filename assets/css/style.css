@@ -395,6 +395,10 @@ text-transform: uppercase;
         left: 5%;
         top: 20px;
         bottom: 20px;
+        border: none;
+    }
+    .content2-a h1{
+        font-size: 35px;
     }
     .content3-a{
         position: relative;
@@ -432,23 +436,23 @@ text-transform: uppercase;
     
     
     .content3-c{
-        position: absolute;
+        position: relative;
         right: 50%;
         left: 50%;
-        top: 70%;
+        /* position: relative; */
+        top: 60vh;
         transform: translate(-50%, -50%);
         
     }
     .content3-c img{
-        position: relative;
-        right: 100px;
+        /* position: relative; */
+        /* right: 100px; */
         /* left: 50%; */
     }
     
     .content3-c p{
         color: rgb(161, 45, 45);
         position: absolute;
-        /* top: 50%; */
         right: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
