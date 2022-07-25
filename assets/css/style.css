@@ -561,20 +561,16 @@ text-transform: uppercase;
         /* top: 500px */
         /* left: 50%; */
         top: 40vh;
-        /* transform: translate(-50%, -50%); */
         color: #E8A929;
         font-size: 135px;
-        /* transform: rotate(-15deg);  */
        
     }
     .content3-e img{
         position: absolute;
-        right: 50%;
-        left: 50%;
-        top: 85vh;
-        transform: translate(-50%, -50%);
-        color: #E8A929;
-        font-size: 235px;
+        /* right: 50%; */
+        left: -90px;
+        width: 350px;
+        top: 65vh;
        
     }
     .content3-e h4{
