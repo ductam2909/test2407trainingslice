@@ -224,9 +224,8 @@ p{color: #fff;}
 }
 .content3-a{
     position: absolute;
-    top: 600px;
+    top: 500px;
     right: -15vw;
-    /* left: 50%; */
     transform: translate(-50%, -50%);
     width: 500px;
     text-align: right;
@@ -235,7 +234,6 @@ p{color: #fff;}
     font-weight: 700;
     font-size: 75px;
     line-height: 110px;
-/* or 147% */
 
 text-align: right;
 text-transform: uppercase;
@@ -251,31 +249,93 @@ text-transform: uppercase;
 
 .content3-b{
     position: relative;
-    top: 40px;
+    top: 120px;
 }
 .content3-b p{
     color: #fff;
     position: absolute;
     left: 200px;
     width: 200px;
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .content3-c{
     position: absolute;
-    top: 300px;
+    top: 380px;
     left: 40vw;
     
 }
 .content3-c p{
     color: #fff;
-    width: 200px;
+    width: 150px;
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
+.content3-d{
+    position: relative;
+    top: 180px;
+}
+.content3-d p{
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    color: #fff;
+    width: 150px;
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
 .content3-e{
-    margin-top: 100px;
+    position: absolute;
+    bottom: -250px;
+    left: 600px;
+    width: 170px;
+    line-height: 24px;
+    text-align: center;
 }
-
-
-
+.content3-e p{
+    position: absolute;
+    bottom: -80px;
+    left: 35px;
+    width: 170px;
+    line-height: 24px;
+    text-align: center;
+}
+.content3-e h1{
+    position: absolute;
+    bottom: -250px;
+    left: -520px;
+    color: #E8A929;
+    font-size: 205px;
+    transform: rotate(-15deg); 
+   
+}
+.content3-e img{
+    position: absolute;
+    bottom: -250px;
+    left: 160px;
+    color: #E8A929;
+    font-size: 235px;
+   
+}
+.content3-e h4{
+    position: absolute;
+    top: 630px;
+    left: -500px;
+    color: #fff;
+    font-size: 16px;
+   
+}
 
 
 
@@ -312,7 +372,9 @@ text-transform: uppercase;
     .content1{
         display: block;
     }
-
+    .header{
+        margin-top: 20px;
+    }
     .content1{
         display: block;
         align-items: center;
@@ -402,7 +464,7 @@ text-transform: uppercase;
     }
     .content3-a{
         position: relative;
-        top: 480px;
+        top: 200px;
         right: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -422,7 +484,7 @@ text-transform: uppercase;
     }
     .content3-b{
         position: relative;
-        top: 400px;
+        top: 100px;
     }
     .content3-b p{
         color: #fff;
@@ -439,8 +501,7 @@ text-transform: uppercase;
         position: relative;
         right: 50%;
         left: 50%;
-        /* position: relative; */
-        top: 60vh;
+        top: 35vh;
         transform: translate(-50%, -50%);
         
     }
@@ -460,15 +521,77 @@ text-transform: uppercase;
     }
     .content3-d{
         position: relative;
-        top: 800px;
+        right: 50%;
+        left: 50%;
+        top: 50vh;
+        transform: translate(-50%, -50%);
     }
+
+    .content3-d p{
+        position: relative;
+        right: 50%;
+        left: 50%;
+        top: -2vh;
+        transform: translate(-50%, -50%);
+    }
+
     .content3-e{
         position: relative;
-        top: 400px;
+        right: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        top: 100px;
+        width: 170px;
+        line-height: 24px;
+        text-align: center;
     }
+    .content3-e p{
+        position: absolute;
+        right: 50%;
+        left: 50%;
+        top: 15vh;
+        transform: translate(-50%, -50%);
+        width: 170px;
+        line-height: 24px;
+        text-align: center;
+    }
+    .content3-e h1{
+        position: absolute;
+        left: -20px;
+        /* top: 500px */
+        /* left: 50%; */
+        top: 40vh;
+        /* transform: translate(-50%, -50%); */
+        color: #E8A929;
+        font-size: 135px;
+        /* transform: rotate(-15deg);  */
+       
+    }
+    .content3-e img{
+        position: absolute;
+        right: 50%;
+        left: 50%;
+        top: 85vh;
+        transform: translate(-50%, -50%);
+        color: #E8A929;
+        font-size: 235px;
+       
+    }
+    .content3-e h4{
+        position: relative;
+        right: 50%;
+        left: 50%;
+        top: 115vh;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-size: 16px;
+       
+    }
+
     .container{
         /* display: block; */
         /* align-items: center; */
+        height: 7000px;
         text-align: center;
         padding: 0px;
     }
